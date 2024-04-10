@@ -66,7 +66,6 @@ export default function Index() {
                   alt="share-icon"
                   width={36}
                   height={36}
-                  style={{ borderRadius: '99px' }}
                 />
                 <Magnetic>
                 <p>Awwwards</p>
