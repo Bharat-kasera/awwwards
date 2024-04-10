@@ -3,6 +3,9 @@ import styles from './style.module.scss';
 export default function index() {
   return (
     <div className={styles.footer}>
+        <div className={styles.imgcontainer}>
+        
+        </div>
         <a>Awwwards</a>
         <a>Instagram</a>
         <a>Dribble</a>

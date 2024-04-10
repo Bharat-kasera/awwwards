@@ -4,9 +4,29 @@
     height: 100vh;
     overflow: hidden;
 
-    img{
-      object-fit: cover;
+    .imgCnt {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100vw;
+      height: 100vh;
+      background-color: #999D9E; // Change this to your desired background color
+    
+      img {
+      position: absolute;
+
+        object-fit: contain !important;
+        max-width: 100% !important; // Adjust this value to change the size of the centered image
+        max-height: 100% !important; // Adjust this value to change the size of the centered image
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+      }
     }
+
+  
+
     
     .sliderContainer{
       position: absolute;
