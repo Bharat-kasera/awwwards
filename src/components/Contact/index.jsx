@@ -14,6 +14,9 @@ export default function Index() {
   const x = useTransform(scrollYProgress, [0, 1], [0, 100]);
   const y = useTransform(scrollYProgress, [0, 1], [-500, 0]);
   const rotate = useTransform(scrollYProgress, [0, 1], [120, 90]);
+  const imageStyle = {
+    borderRadius: '50%',
+  }
   return (
     <motion.div style={{ y }} ref={container} className={styles.contact}>
       <div className={styles.body}>
@@ -66,6 +69,7 @@ export default function Index() {
                   alt="share-icon"
                   width={36}
                   height={36}
+                  style={imageStyle}
                 />
                 <Magnetic>
                 <p>Awwwards</p>

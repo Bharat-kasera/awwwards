@@ -32,16 +32,17 @@
                     position: relative;
                     border-radius: 50%;
                     overflow: hidden;
+                    .imageWrapper {
+                        width: 36px; /* Match the width of the Image component */
+                        height: 36px; /* Match the height of the Image component */
+                        border-radius: 50%;
+                        overflow: hidden;
+                      }
 
                     img{
                         object-fit: cover;
 
-                    }
-                    .image{
-                        border-radius: 99px;
-                        @media (max-width: 768px) {
-                            display:none !important;
-                        }
+
                     }
                 }
                 h2{
