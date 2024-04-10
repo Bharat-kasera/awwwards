@@ -29,7 +29,7 @@ export default function Home() {
   }, [])
 
   return (
-    <main  className='overflow-hidden'>
+    <main  style={{overflowX:"hidden",overflowY: "scroll"}}>
       <AnimatePresence mode='wait'>
         {isLoading && <Preloader />}
       </AnimatePresence>
