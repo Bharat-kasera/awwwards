@@ -115,11 +115,16 @@
             padding: 20px;
             @media (max-width: 768px) {
                 justify-content: center;
+                margin-bottom:50px
             }
             div{
                 display: flex;
                 gap: 10px;
                 align-items: flex-end;
+                @media (max-width: 768px) {
+                   font-size:0.9rem;
+                }
+                
                 p, h3{
                     margin: 0px;
                     padding: 2.5px;
